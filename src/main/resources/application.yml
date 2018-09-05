@@ -1,5 +1,5 @@
 server:
-  port: 9090
+  port: 9000
 
 spring:
   cloud:
@@ -8,3 +8,21 @@ spring:
         git:
           uri: https://github.com/jrshelton/configServer
           search-paths: solstice-ecommerce-cqrs-account-rest-api
+          username: grover96
+          password: ccf0a5cda7d2cb1b9a9884837f5ee3b1782b0867
+
+  security:
+    user:
+      name: root
+      password: s3cr3t
+    basic:
+      enabled: false
+
+
+#  encrypt:
+#    key-store:
+#      location: classpath:/config-server.jks
+#      password: my-s70r3-s3cr3t
+#      alias: config-server-key
+#      secret: my-k34-s3cr3t
+

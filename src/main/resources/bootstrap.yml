@@ -1,3 +1,6 @@
 spring:
   application:
-    name: solstice-remote-config-server-example
+    name: solstice-remote-config-server
+
+#encrypt:
+#  key: secretkey
